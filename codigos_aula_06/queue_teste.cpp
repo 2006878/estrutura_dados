@@ -7,7 +7,7 @@ int main() {
   char character;
   Queue queue;
   char queueChar;
-  cout << "Adicione uma String." << endl;
+  cout << "Adicione uma String: " << endl;
   cin.get(character);
   while (character != '\n' and !queue.isFull())
     {
